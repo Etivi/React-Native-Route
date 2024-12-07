@@ -4,7 +4,7 @@ import { Link, Redirect } from 'expo-router';
 const App = () => {
     return (
 
-        <Redirect href="./home" />
+        <Redirect href="/movies" />
 
         // <View>
         //     <Text className='text-3xl font-work-black text-primary'>Hello, world!</Text>
