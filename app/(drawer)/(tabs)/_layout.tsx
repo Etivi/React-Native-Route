@@ -18,11 +18,11 @@ const TabsLayout = () => {
 			}}
 		>
 			<Tabs.Screen
-				name="home/index"
+				name="movies/index"
 				options={{
 					title: "Home Screen",
 					tabBarIcon: ({ color }) => (
-						<MaterialCommunityIcons size={28} name="home" color={color} />
+						<MaterialCommunityIcons size={28} name="movie-outline" color={color} />
 					),
 				}}
 			/>

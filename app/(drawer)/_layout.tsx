@@ -38,12 +38,12 @@ const DrawerLayout = () => {
 				}}
 			/>
 			<Drawer.Screen
-				name="schedule/index" // This is the name of the page and must match the url from root
+				name="estadisticas/index" // This is the name of the page and must match the url from root
 				options={{
-					drawerLabel: "Schedule",
-					title: "Schedule",
+					drawerLabel: "estadisticas",
+					title: "estadisticas",
 					drawerIcon: ({ color, size }) => (
-						<MaterialCommunityIcons name="calendar" color={color} size={size} />
+						<MaterialCommunityIcons name="chart-bar" color={color} size={size} />
 					)
 				}}
 			/>
