@@ -13,7 +13,7 @@ const CustomDrawer = (props: DrawerContentComponentProps) => {
 					<Image
 						resizeMode="contain"
 						className="rounded-full bg-primary"
-						source={require("../../assets/images/react-logo.png")}
+						source={require("../../../assets/images/react-logo.png")}
 						style={{ width: 60, height: 60 }}
 					/>
 				</View>

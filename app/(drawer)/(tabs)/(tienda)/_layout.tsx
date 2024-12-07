@@ -33,7 +33,7 @@ const StackLayout = () => {
 				animation: "ios_from_left",
 			}}
 		>
-			<Stack.Screen name="home/index" options={{ title: "Inicio" }} />
+			<Stack.Screen name="tienda/index" options={{ title: "Tienda" }} />
 			<Stack.Screen name="profile/index" options={{ title: "Perfil" }} />
 			<Stack.Screen name="products/index" options={{ title: "Productos" }} />
 			<Stack.Screen name="settings/index" options={{ title: "Ajustes" }} />

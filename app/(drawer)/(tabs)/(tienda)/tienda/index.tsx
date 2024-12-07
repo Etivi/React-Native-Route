@@ -1,5 +1,6 @@
-import CustomButton from "@/components/shared/CustomButton";
-import { Link, router, useNavigation } from "expo-router";
+
+import CustomButton from "@/presentation/components/shared/CustomButton";
+import { Link, router, } from "expo-router";
 import { View } from "react-native";
 
 const HomeScreen = () => {

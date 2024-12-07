@@ -18,8 +18,9 @@ const TabsLayout = () => {
 			}}
 		>
 			<Tabs.Screen
-				name="movies/index"
+				name="(movies)"
 				options={{
+					headerShown: false,
 					title: "Home Screen",
 					tabBarIcon: ({ color }) => (
 						<MaterialCommunityIcons size={28} name="movie-outline" color={color} />
@@ -36,10 +37,10 @@ const TabsLayout = () => {
 				}}
 			/>
 			<Tabs.Screen
-				name="(stack)"
+				name="(tienda)"
 				options={{
 					headerShown: false,
-					title: "Stack",
+					title: "Tienda",
 					tabBarIcon: ({ color }) => (
 						<MaterialCommunityIcons size={28} name="account-plus-outline" color={color} />
 					),
