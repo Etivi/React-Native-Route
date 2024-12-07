@@ -1,6 +1,6 @@
 import { Platform } from "react-native";
 import { Tabs } from "expo-router";
-import { FontAwesome } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as NavigationBar from "expo-navigation-bar";
 
 const isAndroid = Platform.OS === "android";
@@ -12,23 +12,17 @@ if (isAndroid) {
 const TabsLayout = () => {
 	return (
 		<Tabs
-			screenOptions={{ tabBarActiveTintColor: "purple", headerShown: false }}
+			screenOptions={{ 
+				tabBarActiveTintColor: "purple", 
+				// headerShown: false 
+			}}
 		>
-			<Tabs.Screen
-				name="(stack)"
-				options={{
-					title: "Profile",
-					tabBarIcon: ({ color }) => (
-						<FontAwesome size={28} name="user" color={color} />
-					),
-				}}
-			/>
 			<Tabs.Screen
 				name="home/index"
 				options={{
 					title: "Home Screen",
 					tabBarIcon: ({ color }) => (
-						<FontAwesome size={28} name="home" color={color} />
+						<MaterialCommunityIcons size={28} name="home" color={color} />
 					),
 				}}
 			/>
@@ -37,7 +31,17 @@ const TabsLayout = () => {
 				options={{
 					title: "Favorites",
 					tabBarIcon: ({ color }) => (
-						<FontAwesome size={28} name="heart" color={color} />
+						<MaterialCommunityIcons size={28} name="heart" color={color} />
+					),
+				}}
+			/>
+			<Tabs.Screen
+				name="(stack)"
+				options={{
+					headerShown: false,
+					title: "Stack",
+					tabBarIcon: ({ color }) => (
+						<MaterialCommunityIcons size={28} name="account-plus-outline" color={color} />
 					),
 				}}
 			/>

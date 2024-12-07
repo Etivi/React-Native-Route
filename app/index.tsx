@@ -1,11 +1,10 @@
 
 import { Link, Redirect } from 'expo-router';
-import {  Text, View } from 'react-native';
 
 const App = () => {
     return (
 
-        <Redirect href="./drawer" />
+        <Redirect href="./home" />
 
         // <View>
         //     <Text className='text-3xl font-work-black text-primary'>Hello, world!</Text>

@@ -5,7 +5,6 @@ import { useFonts } from "expo-font";
 
 import "./global.css";
 import { useEffect } from "react";
-import Drawer from "expo-router/drawer";
 
 SplashScreen.preventAutoHideAsync();
 
