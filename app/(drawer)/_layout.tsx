@@ -1,4 +1,4 @@
-import CustomDrawer from '@/components/shared/CustomDrawer';
+import CustomDrawer from '@/presentation/components/shared/CustomDrawer';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
 

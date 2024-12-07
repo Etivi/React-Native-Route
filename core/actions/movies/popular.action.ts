@@ -3,11 +3,11 @@ import { MovieDBResponse } from "@/infrastructure/interfaces/moviedb-response";
 import { MovieMapper } from "@/infrastructure/mappers/mapper";
 
 
-export const nowPlayingMoviesAction = async () => {
+export const popularMoviesAction = async () => {
 
     try {
 
-        const { data } = await movieApi.get<MovieDBResponse>('/now_playing');
+        const { data } = await movieApi.get<MovieDBResponse>('/popular');
 
         const movies = data.results.map(MovieMapper.fromTheMovieDbToMovie);
         // console.log(JSON.stringify(movies, null, 2));
